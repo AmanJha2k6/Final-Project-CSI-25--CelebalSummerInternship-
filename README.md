@@ -113,7 +113,7 @@ Below is the folder and file structure for this Power BI Product Performance Das
 
 - **`Final Project (Product Performance Analysis.pbix`** — Main Power BI Desktop file containing the data model, visuals, DAX measures, drill-through pages, and design.
 - **`Final Project (Product Performance Analysis.pdf`**-Contains the PDF File for those who are unable to access the live link.
-- **`Final Project (Product Performance Analysis.pbix`**
+- **`Final Project (Product Performance Analysis.pbit`**-Contains the template of power BI.
 - **`Product Performance Analysis Jan 22 to July 22_North (Sales_22).xlsx`** — Example dataset with billing, region, channel, brand, and sales metrics for Year 2022.
 - **`Product Performance Analysis Jan 23 to July 23_North (Sales_23).xlsx`** — Example dataset with billing, region, channel, brand, and sales metrics for Year 2023.
 - **`README.md`** — This file. Describes the project, usage, data structure, and publishing steps.
