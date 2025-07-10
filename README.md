@@ -68,5 +68,42 @@ The main goal of this dashboard is to enable:
 
 ---
 
+## 📑 Table Structure
+
+Below is the structure of the main dataset used in this Power BI project.  
+This table supports in-depth product performance analysis across **location**, **date**, **channels**, and **brands**.
+
+| **Column Name**              | **Data Type** | **Description**                                                                 |
+|------------------------------|----------------|---------------------------------------------------------------------------------|
+| `BILLING DATE`               | Date           | Date when the product was billed/sold. Used for trend and seasonality analysis. |
+| `ZONE NAME`                  | Text           | Sales zone or region name (e.g., North, South, East, West).                     |
+| `CITY`                       | Text           | City within the zone. Useful for granular regional insights.                    |
+| `STOCKIEST NAME`             | Text           | Name of the distributor/stockist handling the product.                          |
+| `DISTRIBUTION CHANNEL`       | Text           | Sales channel (e.g., Direct, Retail, Wholesale).                                |
+| `SALES OFFICE NAME`          | Text           | Specific sales office or branch.                                                |
+| `SALES GROUP NAME`           | Text           | Team or group responsible for sales.                                            |
+| `Brand Name`                 | Text           | Product’s brand name. Core dimension for brand analysis.                        |
+| `Category Name`              | Text           | Higher-level product category grouping.                                         |
+| `MATERIAL DESC`              | Text           | Product description or SKU (stock keeping unit).                                |
+| `ACTUAL INVOICED QUANTITY`   | Numeric        | Total units sold. Used to analyze product volume sold.                          |
+| `No of Cases sale`           | Numeric        | Number of cases sold (bulk/box quantity).                                       |
+| `Unit Rate`                  | Numeric        | Unit selling price of the product.                                              |
+| `TOTAL INR VALUE`            | Numeric        | Total invoiced value in INR (or your currency). Key revenue metric.             |
+| `Last Refresh` *(calculated)* | DateTime       | Shows the last data refresh timestamp in the report.                            |
+
+---
+
+### 🔑 **How it supports the dashboard**
+
+| **Dimension** | **Key Columns**                                     | **Purpose**                                                   |
+|---------------|-----------------------------------------------------|---------------------------------------------------------------|
+| **Location**  | `ZONE NAME`, `CITY`                                 | Analyze sales performance by region and city.                 |
+| **Date**      | `BILLING DATE`                                      | Analyze trends over time, seasonality, YOY/MOM insights.      |
+| **Channel**   | `DISTRIBUTION CHANNEL`, `SALES OFFICE NAME`         | Compare sales performance across channels and sales offices.  |
+| **Brand**     | `Brand Name`, `Category Name`, `MATERIAL DESC`      | Deep dive into brand, category, and SKU-level performance.    |
+| **Metrics**   | `ACTUAL INVOICED QUANTITY`, `No of Cases sale`, `Unit Rate`, `TOTAL INR VALUE` | Volume, value, pricing insights.                              |
+| **Operational** | `STOCKIEST NAME`                                  | Evaluate distributor/partner performance.                     |
+| **Governance** | `Last Refresh`                                     | Confirms data freshness for stakeholders.                     |
+
 ## 📁 **Repository Structure**
 
