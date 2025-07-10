@@ -61,7 +61,7 @@ The main goal of this dashboard is to enable:
 ## ⚙️ **How to Use**
 
 1. **Open the `.pbix` file** in Power BI Desktop.
-2. Connect your dataset if required.
+2. Download the dataset and connect it if required.
 3. Use the slicers to filter data by location, date, channel, and brand.
 4. Click on visuals to drill down or drill through to detailed pages.
 5. Export insights as needed.
