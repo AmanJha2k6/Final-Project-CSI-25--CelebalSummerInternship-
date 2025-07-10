@@ -116,6 +116,7 @@ Below is the folder and file structure for this Power BI Product Performance Das
 - **`Final Project (Product Performance Analysis.pbit`**-Contains the template of power BI.
 - **`Product Performance Analysis Jan 22 to July 22_North (Sales_22).xlsx`** — Example dataset with billing, region, channel, brand, and sales metrics for Year 2022.
 - **`Product Performance Analysis Jan 23 to July 23_North (Sales_23).xlsx`** — Example dataset with billing, region, channel, brand, and sales metrics for Year 2023.
+- **`Images/`** — This file.contains the images of each analysis report pages.
 - **`README.md`** — This file. Describes the project, usage, data structure, and publishing steps.
 
 ---
