@@ -1,4 +1,4 @@
-# 📊 Product Performance Dashboard — Power BI
+# 📊 Product Performance Dashboard (CSI'25)  — Power BI
 
 This repository contains a **Power BI report** that provides a comprehensive in-depth analysis of product performance across **location**, **date**, **channels**, and **brands**.
 
