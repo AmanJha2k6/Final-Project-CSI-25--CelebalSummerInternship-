@@ -107,3 +107,8 @@ This table supports in-depth product performance analysis across **location**, *
 
 ## 📁 **Repository Structure**
 
+## 🔗 Live Dashboard Link:
+      https://app.powerbi.com/links/DSz8K-GtzH?ctid=34bd8bed-2ac1-41ae-9f08-4e0a3f11706c&pbi_source=linkShare
+
+## Author
+   Aman Jha
