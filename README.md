@@ -107,6 +107,22 @@ This table supports in-depth product performance analysis across **location**, *
 
 ## 📁 **Repository Structure**
 
+Below is the folder and file structure for this Power BI Product Performance Dashboard project:
+
+### 📁 **Key Files and Folders**
+
+- **`Final Project (Product Performance Analysis.pbix`** — Main Power BI Desktop file containing the data model, visuals, DAX measures, drill-through pages, and design.
+- **`Final Project (Product Performance Analysis.pdf`**-Contains the PDF File for those who are unable to access the live link.
+- **`Final Project (Product Performance Analysis.pbix`**
+- **`Product Performance Analysis Jan 22 to July 22_North (Sales_22).xlsx`** — Example dataset with billing, region, channel, brand, and sales metrics for Year 2022.
+- **`Product Performance Analysis Jan 23 to July 23_North (Sales_23).xlsx`** — Example dataset with billing, region, channel, brand, and sales metrics for Year 2023.
+- **`README.md`** — This file. Describes the project, usage, data structure, and publishing steps.
+
+---
+
+✅ **Tip:**  
+Keep your folder structure clean — it makes the project easy to clone, open, and understand for anyone who wants to view or extend your dashboard.
+
 
 ## 🔗 Live Dashboard Link:
 [Live Link to Dashboard](https://app.powerbi.com/links/DSz8K-GtzH?ctid=34bd8bed-2ac1-41ae-9f08-4e0a3f11706c&pbi_source=linkShare)
